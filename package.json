@@ -1,0 +1,25 @@
+{
+  "name": "salsa_portfolio",
+  "version": "1.0.0",
+  "description": "salsa portfolio",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalsabeelQandeel/salsa_portfolio.git"
+  },
+  "author": "salsabeel.qandeel@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalsabeelQandeel/salsa_portfolio/issues"
+  },
+  "homepage": "https://github.com/SalsabeelQandeel/salsa_portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3"
+  }
+}
